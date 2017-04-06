@@ -2,8 +2,11 @@
   height: 175px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
+  background-color: #EFEFEF;
+  border-radius: 2px;
   color: white;
   position: relative;
+  margin-bottom: 20px;
 }
 .card-user {
   position: absolute;
@@ -46,4 +49,20 @@
   background-color: #EFEFEF;
   text-align: center;
   align-items: center;
+}
+
+.cocktail-button {
+  padding: 0 20px;
+  margin-bottom: 10px;
+  border-radius: 20em;
+  line-height: 40px;
+  background-color: white;
+  color: #D23333;
+  font-size: 14px;
+  border: 2px solid #D23333;
+}
+.cocktail-button:hover {
+  color: white;
+  background: #D23333;
+  border-color: white;
 }

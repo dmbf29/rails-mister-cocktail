@@ -1,15 +1,21 @@
 <p id="notice"><%= notice %></p>
 
-<h1 class="main-title">Cocktails</h1>
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://thelondonladydotcom1.files.wordpress.com/2014/06/fruit-splash.jpg');">
+  <div class="banner-content">
+    <h1>Cocktails</h1>
+    <p>Mix Like the Pros</p>
+  </div>
+</div>
+
+
+<h1 class="main-title">Cocktail List</h1>
 
 <div class="container">
   <div class="row">
     <% @cocktails.each do |cocktail| %>
       <div class="col-xs-12 col-sm-4">
-        <div class="card">
-          <h2><%= link_to cocktail.name, cocktail_path(cocktail) %></h2>
-<!--           <p><%= cocktail.ingredients %></p>
- -->
+        <div class="card background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('http://bpc.h-cdn.co/assets/16/07/480x480/gallery-1455918935-waterford-martini-glass.jpg');">
+          <h2><%= link_to cocktail.name, cocktail_path(cocktail), class: "card-description" %></h2>
         </div>
       </div>
     <% end %>
