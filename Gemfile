@@ -7,6 +7,8 @@ end
 
 ruby '2.3.3'
 
+gem 'carrierwave', '~> 0.11.2'
+gem 'cloudinary'
 gem 'figaro'
 gem "better_errors"
 gem "binding_of_caller"
