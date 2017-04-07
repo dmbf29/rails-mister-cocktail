@@ -7,6 +7,7 @@ end
 
 ruby '2.3.3'
 
+gem 'figaro'
 gem "better_errors"
 gem "binding_of_caller"
 gem 'bootstrap-sass'
